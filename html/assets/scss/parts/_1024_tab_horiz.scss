@@ -1,0 +1,115 @@
+@media screen and (max-width: 1024px) and (min-width: 840px){
+	.main_banner
+	{
+		.main_nav_bar li:not(.new_status) a
+		{
+			font: 300 16px/16px $primary_sans, sans-serif;
+		}
+	}
+	.side_navigation
+	{
+		position: relative;
+		top: 0;
+		width: 100%;
+		ul
+		{
+			text-align: right;
+			display: block;
+			margin: 10px 205px 55px 0;
+		}
+		li
+		{
+			width: 90px;
+			height: 90px;
+			margin: 0 -5px;
+			display: inline-block;
+			float: none!important;
+			a
+			{
+				font: 8px/26px $primary_sans, sans-serif;	
+				padding: 15px 0;
+			}
+			.fa
+			{
+				font-size: 36px;
+				line-height: 36px;
+			}
+		}
+		li:nth-child(even)
+		{
+			top: 45px;
+		}
+	}
+	.home_page_feed
+	{
+		margin-right: 0px;
+		.home_page_feed_item
+		{
+			margin: 30px 2%;
+			width: 96%;
+			.columns:last-child
+			{
+				display: block!important;
+				float: none!important;
+			}
+			.comment_section
+			{
+				position: relative;
+				.comments_spoken
+				{
+					position: relative;
+					bottom: 0;
+					top: 0;
+					right: 0;
+					left: 0;
+					max-height: 190px;
+					overflow: hidden;
+				}
+				.speak_up
+				{
+					position: relative;
+					bottom: 0;
+					right: 0;
+					top: 0;
+					width: 100%;
+					.chat_button
+					{
+						top: 0;
+						bottom: auto;
+					}
+					input[type="text"]
+					{
+						position: relative;
+					    width: 96%;
+						margin: 0 0 20px 4%;
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.logo
+	{
+		margin: 30px 0;
+		float: none!important;
+		img
+		{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.main_footer
+	{
+		.strevda
+		{
+			text-align: center;
+			img
+			{
+				margin: 10px 5px;
+				display: inline-block;
+			}
+		}
+	}
+	
+}

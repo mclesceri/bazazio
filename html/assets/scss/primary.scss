@@ -1,0 +1,26 @@
+
+//Setup the variables
+@import 'parts/variables';
+
+//Enqueue FontAwesome
+@import 'parts/fontawesome';
+
+//Enqueue Fonts
+@import 'parts/fonts';
+
+//Enqueue Foundation
+@import 'parts/foundation';
+@import 'parts/normalize';
+
+//Core Pieces
+@import 'parts/general';
+@import 'parts/header';
+@import 'parts/side-navigation';
+@import 'parts/home_feed';
+@import 'parts/scroll_bar';
+@import 'parts/footer';
+@import 'parts/1805_adjustments';
+@import 'parts/1215_adjustments';
+@import 'parts/1024_tab_horiz';
+@import 'parts/840_tab_vert';
+@import 'parts/640_phone';

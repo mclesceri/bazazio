@@ -1,0 +1,51 @@
+@media screen and (max-width: 1805px) and (min-width: 1024px)
+{
+	.home_page_feed
+	{
+		.home_page_feed_item
+		{
+			margin: 30px 2%;
+			width: 96%;
+			.columns:last-child
+			{
+				display: block!important;
+				float: none!important;
+				width: 100%;
+			}
+			.comment_section
+			{
+				position: relative;
+				.comments_spoken
+				{
+					position: relative;
+					bottom: 0;
+					top: 0;
+					right: 0;
+					left: 0;
+					max-height: 190px;
+					overflow: hidden;
+				}
+				.speak_up
+				{
+					position: relative;
+					bottom: 0;
+					right: 0;
+					top: 0;
+					width: 100%;
+					.chat_button
+					{
+						top: 0;
+						bottom: auto;
+					}
+					input[type="text"]
+					{
+						position: relative;
+					    width: 96%;
+						margin: 0 0 20px 4%;
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+}

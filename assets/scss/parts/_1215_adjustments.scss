@@ -1,0 +1,16 @@
+@media screen and (max-width: 1215px) and (min-width: 1024px)
+{
+	.user_interaction:last-child
+	{
+		    display: block!important;
+    		width: 200px!important;
+    		margin: 10px 0 0 40px!important;
+	}
+	.textual_status
+	{
+		.user_interaction:last-child
+		{
+			margin-left: 64px!important;
+		}
+	}
+}

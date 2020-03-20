@@ -1,0 +1,250 @@
+.home_page_feed
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-right: 330px;
+	display: inline-block;
+	.home_page_feed_item
+	{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1f1f1+0,e6e6e6+100 */
+		background: #f1f1f1; /* Old browsers */
+		background: -moz-linear-gradient(top,  #f1f1f1 0%, #e6e6e6 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #f1f1f1 0%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #f1f1f1 0%,#e6e6e6 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #f1f1f1 0%,#e6e6e6 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #f1f1f1 0%,#e6e6e6 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+		border: 1px solid #d1d1d1;
+		box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+		min-height: 100px;
+		margin: 30px 40px;
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		&:first-child
+		{
+			margin-top: 40px;
+		}
+		&:after
+		{
+			position: absolute;
+			bottom: -32px;
+			left: 0;
+			right: 0;
+			background: $primary_red;
+			height: 1px;
+			opacity: 0.1;
+			content: "";
+		}
+		.columns
+		{
+			padding: 0;
+			display: table-cell;
+			float: none;
+			vertical-align: middle;
+			position: relative;
+		}
+		.profile_picture
+		{
+			position: absolute;
+			top: -25px;
+			left: -25px;
+			height: 75px;
+			width: 75px;
+			background-size: cover;
+			background-position: top center;
+			background-repeat: no-repeat;
+			border: 2px solid #ffffff;
+			box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+			-webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			z-index: 2;
+		}		
+		.vertically_center_content
+		{
+			display: inline-block;
+		}
+		.picture_status_preview
+		{
+			position: relative;
+			z-index: 1;
+			img
+			{
+				min-height: 293px;
+				width: auto;
+			}
+		}
+		h3
+		{
+			font: 300 22px/32px $primary_sans, sans-serif;
+			color: #171717;
+			margin: 0 40px 20px 40px;
+		}
+		p
+		{
+			font: 16px/26px $primary_sans, sans-serif;
+			color: #050505;
+			margin: 0 40px 20px 40px;
+		}
+		.picture_status_content
+		{
+			
+			ul
+			{
+				margin: 0 0px 20px 40px;
+				text-align: left;
+				padding: 0;
+				li
+				{
+					display: inline-block;
+					a
+					{
+						color: $primary_red;
+						display: block;
+						margin: 0 5px 0 0;
+						text-decoration: none;
+					}
+				}
+			}			
+		}
+		.user_interaction
+		{
+			margin: 0 0 0 40px;
+			background: #ffffff;
+			display: inline-block;
+			padding: 5px 0;
+			text-transform: uppercase;
+			.approval_item
+			{
+				color: $primary_red;
+				border-right: dotted $primary_red 1px;
+				padding: 0 10px;
+				font: 300 16px/26px $primary_sans, sans-serif; 
+				.fa
+				{
+					margin: 0 10px;
+				}
+				&:last-child
+				{
+					border-right: 0;
+				}
+			}
+		}
+		&.textual_status
+		{
+			h3
+			{
+				margin: 20px 20px 20px 64px;
+				font: 300 22px/32px $primary_sans, sans-serif;
+				color: #171717;
+			}
+			p
+			{
+				margin: 0 20px 20px 64px;
+				text-align: justify;
+				font: 16px/24px $primary_sans, sans-serif;;
+			}
+			.user_interaction
+			{
+				margin-left: 64px;
+				margin-bottom: 20px;
+			}
+		}
+		.comment_section
+		{
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			.comments_spoken
+			{
+				position: absolute;
+				top: 0px;
+				right: 10px;
+				bottom: 70px;
+				left: 0;
+				overflow: hidden;
+				li
+				{
+					display: block;
+					background: #ffffff;
+					position: relative;
+					min-height: 57px;
+					margin: 10px 23px 0 0;
+					&:first-child
+					{
+						margin-top: 0;
+					}					
+					.profile_pic
+					{
+						position: absolute;
+						left: -28px;
+						top: 0;
+						height: 57px;
+						width: 57px;
+						display: block;
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: center top;
+						border-radius: 50%;
+						-webkit-border-radius: 50%;
+					}
+					.comment_text
+					{
+						font: 300 14px/21px $primary_sans, san-serif;
+						margin: 18px 20px 18px 40px;
+						display: inline-block;
+					}
+				}
+			}
+			.speak_up
+			{
+				display: inline-block;
+				position: absolute;
+				bottom: 10px;
+				right: 53px;
+				left: 0;
+				.chat_button
+				{
+					position: absolute;
+					left: 11px;
+					bottom: 0;
+					width: 64px;
+					background: $primary_red;
+					box-shadow: inset 0 0 10px 1px rgba(0,0,0,0.3);
+					-webkit-box-shadow: inset 0 0 10px 1px rgba(0,0,0,0.3);
+					border-radius: 50%;
+					-webkit-border-radius: 50%;
+					font-size: 32px;
+					line-height: 64px;
+					text-align: center;
+					display: block;
+					z-index: 2;
+					color: #ffffff;
+				}
+				input[type="text"]
+				{
+					display: block;
+					border: 0;
+					background: #ffffff;
+					line-height: 64px;
+					font-size: 16px;
+					color: #171717;
+					padding: 0;
+					text-indent: 42px;
+					position: absolute;
+					right: 0;
+					bottom: 0px;
+					left: 43px;
+					width: 100%;
+					font: 300 16px/64px $primary_sans, sans-serif;
+				}
+			}
+		}
+	}
+}
